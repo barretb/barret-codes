@@ -8,60 +8,54 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: A little bit of my mind, crafted with code
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Barret Codes
+  url: "https://barretblake.dev"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I wear many hats. Father, husband, Microsoft MVP, developer, Azure Solutions Architect, gamer, blogger, speaker, teacher, mentor, model railroader, Buckeyes fan, and more. I’ve been blessed greatly by this industry, and so this site is one way I try to give a little bit back. When I can find the time, I add a bit of my coding knowledge and experience to share with whoever might find it of worth.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "barretblake@live.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/barretb"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+- name: BlueSky
+  icon: "fab fa-bluesky"
+  url: "https://bsky.app/profile/barretblake.dev"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+  url: "https://www.linkedin.com/in/barretblake"
 
 - name: Mastadon
   icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+  url: "https://mstdn.social/@barret"
 
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+- name: YouTube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/@barretcodes"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+- title: "My Tech Site"
+  url: "https://barretblake.dev"
+
+- title: "My Creative Site"
+  url: "https://creative.barretblake.com"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
@@ -73,29 +67,49 @@ badges:
   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  name: Microsoft MVP
+  url: "https://www.credly.com/badges/d3ca2807-769f-4f58-b66c-ed6f775b4613/public_url"
+  badge: images/2024-microsoft-most-valuable-professional-mvp.png
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: AZ-900 Azure Fundamentals
+  url: "https://www.credly.com/badges/a21dc2c6-31c0-4929-9f39-91010406fa54"
+  badge: images/az-900.png
 
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
+  name: C#
+  percentage: 100
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
+  name: Power Automate
+  percentage: 100
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+  name: JavaScript
+  percentage: 100
+  color: "#ff4500"
+
+- type: soft-skill-indicator
+  name: SQL
+  percentage: 100
+  color: green
+
+- type: soft-skill-indicator
+  name: Azure
+  percentage: 100
+  color: "#800080"
+
+- type: soft-skill-indicator
+  name: Angular
+  percentage: 100
+  color: "#ff0000"
+
+- type: soft-skill-indicator
+  name: Awesomeness
+  percentage: 100
+  color: "#ffff00"
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
